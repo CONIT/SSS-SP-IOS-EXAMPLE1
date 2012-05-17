@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		53C31EEE1565583200581A84 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53C31EED1565583200581A84 /* UIKit.framework */; };
+		53C31EF01565583200581A84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53C31EEF1565583200581A84 /* Foundation.framework */; };
+		53C31EF21565583200581A84 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53C31EF11565583200581A84 /* CoreGraphics.framework */; };
+		53C31EF81565583200581A84 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 53C31EF61565583200581A84 /* InfoPlist.strings */; };
+		53C31EFA1565583200581A84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C31EF91565583200581A84 /* main.m */; };
+		53C31EFE1565583200581A84 /* SPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C31EFD1565583200581A84 /* SPAppDelegate.m */; };
+		53C31F011565583200581A84 /* SPMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C31F001565583200581A84 /* SPMasterViewController.m */; };
+		53C31F041565583200581A84 /* SPDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C31F031565583200581A84 /* SPDetailViewController.m */; };
+		53C31F071565583200581A84 /* SPMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53C31F051565583200581A84 /* SPMasterViewController.xib */; };
+		53C31F0A1565583200581A84 /* SPDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53C31F081565583200581A84 /* SPDetailViewController.xib */; };
+		53C31F14156562CE00581A84 /* SPProductListApiConnect.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C31F13156562CE00581A84 /* SPProductListApiConnect.m */; };
+		53C31F2F15656DF100581A84 /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C31F1715656DF100581A84 /* NSObject+SBJson.m */; };
+		53C31F3015656DF100581A84 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C31F1A15656DF100581A84 /* SBJsonParser.m */; };
+		53C31F3115656DF100581A84 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C31F1C15656DF100581A84 /* SBJsonStreamParser.m */; };
+		53C31F3215656DF100581A84 /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C31F1E15656DF100581A84 /* SBJsonStreamParserAccumulator.m */; };
+		53C31F3315656DF100581A84 /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C31F2015656DF100581A84 /* SBJsonStreamParserAdapter.m */; };
+		53C31F3415656DF100581A84 /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C31F2215656DF100581A84 /* SBJsonStreamParserState.m */; };
+		53C31F3515656DF100581A84 /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C31F2415656DF100581A84 /* SBJsonStreamWriter.m */; };
+		53C31F3615656DF100581A84 /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C31F2615656DF100581A84 /* SBJsonStreamWriterAccumulator.m */; };
+		53C31F3715656DF100581A84 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C31F2815656DF100581A84 /* SBJsonStreamWriterState.m */; };
+		53C31F3815656DF100581A84 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C31F2A15656DF100581A84 /* SBJsonTokeniser.m */; };
+		53C31F3915656DF100581A84 /* SBJsonUTF8Stream.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C31F2C15656DF100581A84 /* SBJsonUTF8Stream.m */; };
+		53C31F3A15656DF100581A84 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C31F2E15656DF100581A84 /* SBJsonWriter.m */; };
+		53C31F3E15657BE700581A84 /* SPHTMLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C31F3C15657BE700581A84 /* SPHTMLViewController.m */; };
+		53C31F3F15657BE700581A84 /* SPHTMLViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 53C31F3D15657BE700581A84 /* SPHTMLViewController.xib */; };
+		53C31F4215657E3F00581A84 /* SPFileDownloadApiConnect.m in Sources */ = {isa = PBXBuildFile; fileRef = 53C31F4115657E3F00581A84 /* SPFileDownloadApiConnect.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		53C31EE91565583200581A84 /* SSS-SP-EXAMPLE1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SSS-SP-EXAMPLE1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		53C31EED1565583200581A84 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		53C31EEF1565583200581A84 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		53C31EF11565583200581A84 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		53C31EF51565583200581A84 /* SSS-SP-EXAMPLE1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SSS-SP-EXAMPLE1-Info.plist"; sourceTree = "<group>"; };
+		53C31EF71565583200581A84 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		53C31EF91565583200581A84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53C31EFB1565583200581A84 /* SSS-SP-EXAMPLE1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SSS-SP-EXAMPLE1-Prefix.pch"; sourceTree = "<group>"; };
+		53C31EFC1565583200581A84 /* SPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPAppDelegate.h; sourceTree = "<group>"; };
+		53C31EFD1565583200581A84 /* SPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPAppDelegate.m; sourceTree = "<group>"; };
+		53C31EFF1565583200581A84 /* SPMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPMasterViewController.h; sourceTree = "<group>"; };
+		53C31F001565583200581A84 /* SPMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPMasterViewController.m; sourceTree = "<group>"; };
+		53C31F021565583200581A84 /* SPDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPDetailViewController.h; sourceTree = "<group>"; };
+		53C31F031565583200581A84 /* SPDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SPDetailViewController.m; sourceTree = "<group>"; };
+		53C31F061565583200581A84 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SPMasterViewController.xib; sourceTree = "<group>"; };
+		53C31F091565583200581A84 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SPDetailViewController.xib; sourceTree = "<group>"; };
+		53C31F10156558A100581A84 /* SPDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPDefines.h; sourceTree = "<group>"; };
+		53C31F12156562CE00581A84 /* SPProductListApiConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPProductListApiConnect.h; sourceTree = "<group>"; };
+		53C31F13156562CE00581A84 /* SPProductListApiConnect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPProductListApiConnect.m; sourceTree = "<group>"; };
+		53C31F1615656DF100581A84 /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
+		53C31F1715656DF100581A84 /* NSObject+SBJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJson.m"; sourceTree = "<group>"; };
+		53C31F1815656DF100581A84 /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
+		53C31F1915656DF100581A84 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		53C31F1A15656DF100581A84 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		53C31F1B15656DF100581A84 /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		53C31F1C15656DF100581A84 /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		53C31F1D15656DF100581A84 /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		53C31F1E15656DF100581A84 /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
+		53C31F1F15656DF100581A84 /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		53C31F2015656DF100581A84 /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		53C31F2115656DF100581A84 /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		53C31F2215656DF100581A84 /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		53C31F2315656DF100581A84 /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		53C31F2415656DF100581A84 /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		53C31F2515656DF100581A84 /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		53C31F2615656DF100581A84 /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		53C31F2715656DF100581A84 /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		53C31F2815656DF100581A84 /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		53C31F2915656DF100581A84 /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonTokeniser.h; sourceTree = "<group>"; };
+		53C31F2A15656DF100581A84 /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonTokeniser.m; sourceTree = "<group>"; };
+		53C31F2B15656DF100581A84 /* SBJsonUTF8Stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonUTF8Stream.h; sourceTree = "<group>"; };
+		53C31F2C15656DF100581A84 /* SBJsonUTF8Stream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonUTF8Stream.m; sourceTree = "<group>"; };
+		53C31F2D15656DF100581A84 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		53C31F2E15656DF100581A84 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		53C31F3B15657BE700581A84 /* SPHTMLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPHTMLViewController.h; sourceTree = "<group>"; };
+		53C31F3C15657BE700581A84 /* SPHTMLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPHTMLViewController.m; sourceTree = "<group>"; };
+		53C31F3D15657BE700581A84 /* SPHTMLViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SPHTMLViewController.xib; sourceTree = "<group>"; };
+		53C31F4015657E3F00581A84 /* SPFileDownloadApiConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPFileDownloadApiConnect.h; sourceTree = "<group>"; };
+		53C31F4115657E3F00581A84 /* SPFileDownloadApiConnect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPFileDownloadApiConnect.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53C31EE61565583200581A84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53C31EEE1565583200581A84 /* UIKit.framework in Frameworks */,
+				53C31EF01565583200581A84 /* Foundation.framework in Frameworks */,
+				53C31EF21565583200581A84 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53C31EDE1565583200581A84 = {
+			isa = PBXGroup;
+			children = (
+				53C31EF31565583200581A84 /* SSS-SP-EXAMPLE1 */,
+				53C31EEC1565583200581A84 /* Frameworks */,
+				53C31EEA1565583200581A84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		53C31EEA1565583200581A84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53C31EE91565583200581A84 /* SSS-SP-EXAMPLE1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53C31EEC1565583200581A84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53C31EED1565583200581A84 /* UIKit.framework */,
+				53C31EEF1565583200581A84 /* Foundation.framework */,
+				53C31EF11565583200581A84 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53C31EF31565583200581A84 /* SSS-SP-EXAMPLE1 */ = {
+			isa = PBXGroup;
+			children = (
+				53C31F1515656DF100581A84 /* SBJSON */,
+				53C31F111565628900581A84 /* SPClass */,
+				53C31EFC1565583200581A84 /* SPAppDelegate.h */,
+				53C31EFD1565583200581A84 /* SPAppDelegate.m */,
+				53C31EFF1565583200581A84 /* SPMasterViewController.h */,
+				53C31F001565583200581A84 /* SPMasterViewController.m */,
+				53C31F051565583200581A84 /* SPMasterViewController.xib */,
+				53C31F021565583200581A84 /* SPDetailViewController.h */,
+				53C31F031565583200581A84 /* SPDetailViewController.m */,
+				53C31F081565583200581A84 /* SPDetailViewController.xib */,
+				53C31F3B15657BE700581A84 /* SPHTMLViewController.h */,
+				53C31F3C15657BE700581A84 /* SPHTMLViewController.m */,
+				53C31F3D15657BE700581A84 /* SPHTMLViewController.xib */,
+				53C31EF41565583200581A84 /* Supporting Files */,
+			);
+			path = "SSS-SP-EXAMPLE1";
+			sourceTree = "<group>";
+		};
+		53C31EF41565583200581A84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				53C31EF51565583200581A84 /* SSS-SP-EXAMPLE1-Info.plist */,
+				53C31EF61565583200581A84 /* InfoPlist.strings */,
+				53C31EF91565583200581A84 /* main.m */,
+				53C31EFB1565583200581A84 /* SSS-SP-EXAMPLE1-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		53C31F111565628900581A84 /* SPClass */ = {
+			isa = PBXGroup;
+			children = (
+				53C31F10156558A100581A84 /* SPDefines.h */,
+				53C31F12156562CE00581A84 /* SPProductListApiConnect.h */,
+				53C31F13156562CE00581A84 /* SPProductListApiConnect.m */,
+				53C31F4015657E3F00581A84 /* SPFileDownloadApiConnect.h */,
+				53C31F4115657E3F00581A84 /* SPFileDownloadApiConnect.m */,
+			);
+			name = SPClass;
+			sourceTree = "<group>";
+		};
+		53C31F1515656DF100581A84 /* SBJSON */ = {
+			isa = PBXGroup;
+			children = (
+				53C31F1615656DF100581A84 /* NSObject+SBJson.h */,
+				53C31F1715656DF100581A84 /* NSObject+SBJson.m */,
+				53C31F1815656DF100581A84 /* SBJson.h */,
+				53C31F1915656DF100581A84 /* SBJsonParser.h */,
+				53C31F1A15656DF100581A84 /* SBJsonParser.m */,
+				53C31F1B15656DF100581A84 /* SBJsonStreamParser.h */,
+				53C31F1C15656DF100581A84 /* SBJsonStreamParser.m */,
+				53C31F1D15656DF100581A84 /* SBJsonStreamParserAccumulator.h */,
+				53C31F1E15656DF100581A84 /* SBJsonStreamParserAccumulator.m */,
+				53C31F1F15656DF100581A84 /* SBJsonStreamParserAdapter.h */,
+				53C31F2015656DF100581A84 /* SBJsonStreamParserAdapter.m */,
+				53C31F2115656DF100581A84 /* SBJsonStreamParserState.h */,
+				53C31F2215656DF100581A84 /* SBJsonStreamParserState.m */,
+				53C31F2315656DF100581A84 /* SBJsonStreamWriter.h */,
+				53C31F2415656DF100581A84 /* SBJsonStreamWriter.m */,
+				53C31F2515656DF100581A84 /* SBJsonStreamWriterAccumulator.h */,
+				53C31F2615656DF100581A84 /* SBJsonStreamWriterAccumulator.m */,
+				53C31F2715656DF100581A84 /* SBJsonStreamWriterState.h */,
+				53C31F2815656DF100581A84 /* SBJsonStreamWriterState.m */,
+				53C31F2915656DF100581A84 /* SBJsonTokeniser.h */,
+				53C31F2A15656DF100581A84 /* SBJsonTokeniser.m */,
+				53C31F2B15656DF100581A84 /* SBJsonUTF8Stream.h */,
+				53C31F2C15656DF100581A84 /* SBJsonUTF8Stream.m */,
+				53C31F2D15656DF100581A84 /* SBJsonWriter.h */,
+				53C31F2E15656DF100581A84 /* SBJsonWriter.m */,
+			);
+			name = SBJSON;
+			path = JSON;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53C31EE81565583200581A84 /* SSS-SP-EXAMPLE1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53C31F0D1565583200581A84 /* Build configuration list for PBXNativeTarget "SSS-SP-EXAMPLE1" */;
+			buildPhases = (
+				53C31EE51565583200581A84 /* Sources */,
+				53C31EE61565583200581A84 /* Frameworks */,
+				53C31EE71565583200581A84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SSS-SP-EXAMPLE1";
+			productName = "SSS-SP-EXAMPLE1";
+			productReference = 53C31EE91565583200581A84 /* SSS-SP-EXAMPLE1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53C31EE01565583200581A84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 53C31EE31565583200581A84 /* Build configuration list for PBXProject "SSS-SP-EXAMPLE1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 53C31EDE1565583200581A84;
+			productRefGroup = 53C31EEA1565583200581A84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53C31EE81565583200581A84 /* SSS-SP-EXAMPLE1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53C31EE71565583200581A84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53C31EF81565583200581A84 /* InfoPlist.strings in Resources */,
+				53C31F071565583200581A84 /* SPMasterViewController.xib in Resources */,
+				53C31F0A1565583200581A84 /* SPDetailViewController.xib in Resources */,
+				53C31F3F15657BE700581A84 /* SPHTMLViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53C31EE51565583200581A84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53C31EFA1565583200581A84 /* main.m in Sources */,
+				53C31EFE1565583200581A84 /* SPAppDelegate.m in Sources */,
+				53C31F011565583200581A84 /* SPMasterViewController.m in Sources */,
+				53C31F041565583200581A84 /* SPDetailViewController.m in Sources */,
+				53C31F14156562CE00581A84 /* SPProductListApiConnect.m in Sources */,
+				53C31F2F15656DF100581A84 /* NSObject+SBJson.m in Sources */,
+				53C31F3015656DF100581A84 /* SBJsonParser.m in Sources */,
+				53C31F3115656DF100581A84 /* SBJsonStreamParser.m in Sources */,
+				53C31F3215656DF100581A84 /* SBJsonStreamParserAccumulator.m in Sources */,
+				53C31F3315656DF100581A84 /* SBJsonStreamParserAdapter.m in Sources */,
+				53C31F3415656DF100581A84 /* SBJsonStreamParserState.m in Sources */,
+				53C31F3515656DF100581A84 /* SBJsonStreamWriter.m in Sources */,
+				53C31F3615656DF100581A84 /* SBJsonStreamWriterAccumulator.m in Sources */,
+				53C31F3715656DF100581A84 /* SBJsonStreamWriterState.m in Sources */,
+				53C31F3815656DF100581A84 /* SBJsonTokeniser.m in Sources */,
+				53C31F3915656DF100581A84 /* SBJsonUTF8Stream.m in Sources */,
+				53C31F3A15656DF100581A84 /* SBJsonWriter.m in Sources */,
+				53C31F3E15657BE700581A84 /* SPHTMLViewController.m in Sources */,
+				53C31F4215657E3F00581A84 /* SPFileDownloadApiConnect.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		53C31EF61565583200581A84 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53C31EF71565583200581A84 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		53C31F051565583200581A84 /* SPMasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53C31F061565583200581A84 /* en */,
+			);
+			name = SPMasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		53C31F081565583200581A84 /* SPDetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53C31F091565583200581A84 /* en */,
+			);
+			name = SPDetailViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53C31F0B1565583200581A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		53C31F0C1565583200581A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53C31F0E1565583200581A84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSS-SP-EXAMPLE1/SSS-SP-EXAMPLE1-Prefix.pch";
+				INFOPLIST_FILE = "SSS-SP-EXAMPLE1/SSS-SP-EXAMPLE1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		53C31F0F1565583200581A84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSS-SP-EXAMPLE1/SSS-SP-EXAMPLE1-Prefix.pch";
+				INFOPLIST_FILE = "SSS-SP-EXAMPLE1/SSS-SP-EXAMPLE1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53C31EE31565583200581A84 /* Build configuration list for PBXProject "SSS-SP-EXAMPLE1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53C31F0B1565583200581A84 /* Debug */,
+				53C31F0C1565583200581A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53C31F0D1565583200581A84 /* Build configuration list for PBXNativeTarget "SSS-SP-EXAMPLE1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53C31F0E1565583200581A84 /* Debug */,
+				53C31F0F1565583200581A84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53C31EE01565583200581A84 /* Project object */;
+}
